@@ -60,7 +60,7 @@ export class ASCIIEffect extends Effect {
         cellSize = 16,
         color = '#ffffff',
         invert = false
-    }: IASCIIEffectProps) {
+    }: IASCIIEffectProps = {}) {
         const uniforms = new Map<string, Uniform>([
             ['uCharacters', new Uniform(new Texture())],
             ['uCellSize', new Uniform(cellSize)],
