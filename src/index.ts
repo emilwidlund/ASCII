@@ -22,10 +22,8 @@ vec3 greyscale(vec3 color) {
 void mainImage(const in vec4 inputColor, const in vec2 uv, out vec4 outputColor) {
     vec2 cell = resolution / uCellSize;
     vec2 grid = 1.0 / cell;
-
     vec2 pixelizedUV = grid * (0.5 + floor(uv / grid));
     vec4 pixelized = texture2D(inputBuffer, pixelizedUV);
-
     float greyscaled = greyscale(pixelized.rgb).r;
 
     if (uInvert) {
