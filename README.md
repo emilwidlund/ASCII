@@ -4,10 +4,10 @@ An ASCII effect for THREE.js - which runs as a fragment shader on the GPU.
 
 ## Usage
 
-```
+```jsx
 import React from 'react';
-import {Canvas} from '@react-three/fiber';
-import {EffectComposer} from '@react-three/postprocessing';
+import { Canvas } from '@react-three/fiber';
+import { EffectComposer } from '@react-three/postprocessing';
 
 const Scene = () => {
     const asciiEffect = React.useMemo(() => new ASCIIEffect(), []);
@@ -24,5 +24,5 @@ const Scene = () => {
             </EffectComposer>
         </Canvas>
     );
-}
+};
 ```
