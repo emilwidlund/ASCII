@@ -1,0 +1,19 @@
+{
+  "name": "ascii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Emil Widlund",
+  "license": "MIT",
+  "dependencies": {
+    "@types/three": "^0.151.0",
+    "postprocessing": "6.30.2",
+    "three": "^0.151.3",
+    "typescript": "5.0.4"
+  },
+  "type": "module"
+}
