@@ -49,7 +49,6 @@ export interface IASCIIEffectProps {
     fontSize?: number;
     cellSize?: number;
     color?: string;
-    opacity?: boolean;
     invert?: boolean;
 }
 
