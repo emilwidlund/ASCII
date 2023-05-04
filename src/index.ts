@@ -54,7 +54,7 @@ export interface IASCIIEffectProps {
 
 export class ASCIIEffect extends Effect {
     constructor({
-        characters = ` .,'^:-=+*?!|0%#XWM@`,
+        characters = ` .:,'-^=*+?!|0#X%WM@`,
         fontSize = 54,
         cellSize = 16,
         color = '#ffffff',
