@@ -20,6 +20,7 @@ interface IASCIIEffectProps {
 import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { EffectComposer } from '@react-three/postprocessing';
+import { ASCIIEffect } from 'ascii';
 
 const Scene = () => {
     const asciiEffect = React.useMemo(() => new ASCIIEffect(), []);
