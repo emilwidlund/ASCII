@@ -1,6 +1,6 @@
 # ASCII
 
-An ASCII effect for THREE.js - which runs as a fragment shader on the GPU.
+An ASCII effect for THREE.js - which runs as a fragment shader on the GPU. Inspired by https://github.com/darkroomengineering/aniso.
 
 ### Supported Props
 
